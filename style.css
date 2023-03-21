@@ -1,0 +1,38 @@
+
+#face {
+    background-color: #c4c2b9;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(75, 75, 75);
+    position: relative;
+    margin: 10px auto;
+  }
+      
+  #minutes, #hour, #seconds {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: top center;
+  }
+      
+  #seconds {
+    background-color: #f69f83;
+    height: 130px;
+    width: 2px;
+  }
+      
+  #hour {
+    background-color: #76575d;
+    height: 100px;
+    width: 8px;
+    transform: rotate(0deg);
+  }
+      
+  #minutes {
+    background-color:#6d9891;
+    height: 120px;
+    width: 4px;
+    transform: rotate(0deg);
+  }
+  
